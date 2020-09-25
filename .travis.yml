@@ -4,6 +4,9 @@ cache:
     - $HOME/.cache/pip
     - /opt/python
 sudo: false
+arch:
+ - amd64
+ - ppc64le
 env:
   - TOX_ENV=py27-flake8
   - TOX_ENV=py37-flake8
